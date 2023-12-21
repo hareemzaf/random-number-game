@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 
-// random number 1 to 10
+// random number 1 to 20
 const systemGeneratedNo = Math.floor(Math.random() * 20) +1;
 
 const {userGuess}: {userGuess: number } = await inquirer.prompt({
